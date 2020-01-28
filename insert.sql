@@ -1,0 +1,118 @@
+--INSERT FILE------
+
+call createrole(1)
+call createrole(2)
+call createrole(3)
+call createrole(4)
+call createrole(5)
+call createrole(6)
+call createrole(7)
+call createrole(8)
+call createrole(9)
+
+
+call addsystemadmin('Eren Özger')
+call addsystemadmin('Nehir Akbaş')
+call addsystemadmin('Mustafa Küçük')
+
+
+call addmoderator('Eren Özger','1')
+call addmoderator('Nehir Akbaş','1')
+call addmoderator('Mustafa Küçük','1')
+
+call addnewswriter('L. Frank Baum','1')
+call addnewswriter('R. Edward Gosnell','1')
+call addnewswriter('Capus M. Waynick','2')
+call addnewswriter('Paul Hume','2')
+call addnewswriter('Neil Morgan','3')
+call addnewswriter('George Barkin','3')
+
+
+
+call addgame(1,'Minecraft','Mojang','0','pc','Artifact,Design','English')
+call addgame(1,'The Witcher 3: Wild Hunt','CD Projekt RED','0','pc','Action','English')
+call addgame(1,'Fortnite','Epic Games','0','pc','Action fps','English')
+call addgame(1,'Overwatch','Blizzard','0','pc','Fps','English')
+call addgame(1,'World Of Warcraft','Blizzard','0','pc','Moba','English')
+call addgame(2,'Red Dead Redemption 2','Rockstar Games','0','console','Fps action','English')
+call addgame(2,'God of War','SIE Santa Monica Studio','0','console','Fps action','English')
+call addgame(2,'Resident Evil 2','Capcom','0','console','Action','English')
+call addgame(2,'Smash Bros. Ultimate','Nintendo','0','console','Strategy','English')
+call addgame(2,'Sekiro: Shadows Die Twice','FromSoftware','0','console','Fps action','English')
+call addgame(3,'Call of Duty: Mobile','TiMi Studios','0','mobile','Fps','English')
+call addgame(3,'Crashlands','Butterscotch Shenanigans','0','mobile','Artifact','English')
+call addgame(3,'Evoland 1','Shiro Games','0','mobile','Strategy','English')
+call addgame(3,'Evoland 2','Shiro Games','0','mobile','Strategy','English')
+call addgame(3,'PUBG:Mobile','Tencent Games','0','mobile','Fps','English')
+
+
+
+call addmovie(1,'Titanic (1997)','Drama, Romance','0','A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.',' English')
+call addmovie(1,'E.T. the Extra-Terrestrial',' Family Sci-Fi','0',"A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.",' English')
+call addmovie(1,'The Wizard of Oz','Adventure Family Fantasy Musical','0','Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home to Kansas and help her friends as well. ',' English')
+call addmovie(1,'Star Wars',' Action Adventure Fantasy Sci-Fi','0','Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empires world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.',' English')
+call addmovie(2,'The Lord of the Rings: The Return of the King','Adventure Drama Fantasy','0',"It's been 15 years since the Lord of the Rings trilogy ended, but we still can't get enough. Let's look at the stars who missed out on adventures in Middle-earth. ",' English')
+call addmovie(2,'Snow White and the Seven Dwarfs','Animation Family Fantasy Musical Romance','0','Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.',' English')
+call addmovie(2,'Terminator 2: Judgment Day','Action Sci-Fi','0','inda Hamilton has made a career out of playing strong female protagonists, especially as Sarah Connor in The Terminator and Terminator: Dark Fate. What other roles has she played?',' English')
+call addmovie(2,'The Lion King','Animation Adventure Drama Family Musical','0',"A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.",' English')
+call addmovie(3,'The Godfather','Crime Drama','0',"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",' English Italian Latin')
+call addmovie(3,'Jesus','Biography Drama Family History','0',"Jesus of Nazareth,the son of God raised by a Jewish carpenter. Based on the gospel of Luke in the New Testament",' English')
+
+
+call addseries(1,'The Mandalorian',0,"The travails of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",'Action, Adventure, Sci-Fi')
+call addseries(1,'The Crown',0,"Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",'Drama, History')
+call addseries(1,'His Dark Materials',0,"Two children embark on a magical adventure through parallel universes.",'Adventure, Drama, Family')
+call addseries(2,'Watchmen' , 0,"Set in an alternate history where masked vigilantes are treated as outlaws, Watchmen embraces the nostalgia of the original groundbreaking graphic novel of the same name, while attempting to break new ground of its own.",' Action, Drama, Mystery')
+call addseries(2,'TheWalking Dead',0,"Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins, and must lead a group of survivors to stay alive.",'Drama, Horror, Thriller')
+call addseries(2,'Rick and Morty',0,"An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",'Animation, Adventure, Comedy')
+call addseries(2,'See',0,"Far in a dystopian future, the human race has lost the sense of sight, and society has had to find new ways to interact, build, hunt, and to survive. All of that is challenged when a set of twins is born with sight.",' Action, Drama, Sci-Fi')
+call addseries(3,'Servant',0,"A Philadelphia couple are in mourning after an unspeakable tragedy creates a rift in their marriage and opens the door for a mysterious force to enter their home.",'Drama, Horror, Thriller ')
+call addseries(3,'Mr. Robot',0,"Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.",'Crime, Drama, Thriller ')
+call addseries(3,'Jack Ryan',0,"An up-and-coming CIA analyst, Jack Ryan, is thrust into a dangerous field assignment as he uncovers a pattern in terrorist communication that launches him into the center of a dangerous gambit.",'Action, Drama, Thriller')
+
+
+call addmusic(1,'Tones And I','Dance Monkey',0,'Electronic Dance Music','English')
+call addmusic(1,'Maroon 5','Memories',0,'Rock Music','English')
+call addmusic(1,'RITMO (Bad Boys For Life)','The Black Eyed Peas & J Balvin',0,'Jazz','English')
+call addmusic(1,'Regard','Ride It',0,'Dubstep','English')
+call addmusic(1,'Dua Lipa',"Don't Start Now",0,'Rhythm and Blues','English')
+call addmusic(1,'Post Malone','Circles',0,'Techno','English')
+call addmusic(1,'Lewis Capaldi','Someone You Loved',0,'Country Music','English')
+call addmusic(1,'SAINt JHN','Roses (Imanbek Remix)',0,'Electro','English')
+call addmusic(1,'Billie Eilish','everything i wanted',0,'Indie Rock','English')
+call addmusic(1,'Meduza, Becky Hill & Goodboys','Lose Control',0,'Pop Music','English')
+
+call addnews(1,"The full list of the 2019 Golden Globe film nominations is below. Marriage Story led all films with six total nominations, followed by five for The Irishman and Once Upon a Time in Hollywood and four each for Joker and The Two Popes.")
+call addnews(1,"These games have the highest Metascores out of all titles released from 2010-19. Games must have reviews from at least 15 critics to qualify for inclusion. If a game was released on multiple platforms, we are only including the version with the most reviews in our database.")
+call addnews(2,"Below, we collect every year-end Top Ten list published by major film critics and publications. This page will be updated throughout December and January whenever new lists are published; be sure to check back frequently.")
+call addnews(2,"Below is our current running tally of the most honored 2019 films and individuals, which will be updated daily throughout awards season (December - February) as new nominations and awards are announced. For each category, our points system works as follows:")
+call addnews(3,"Although many of the lists come from publications whose reviews are included on this site, we have also included extra lists from prominent music stores, websites, a few radio stations, and publications not normally found in Metacritic's music section.")
+call addnews(3,"Here are the most notable titles released in recent weeks.Titles marked NEW (if any) are this week's major new releases.")
+call addnews(4,"This is the permanent home of our guide to currently available and upcoming free games for Xbox One, PlayStation 4, and PC. We'll update it whenever new titles are announced.")
+call addnews(4,"One problem with TV reviews: For many shows, they only reflect the first few episodes of a given season, which makes it hard to get a sense of a season (or, indeed, series) as a whole after the fact.")
+call addnews(5,"The following recently added HBO Go / HBO Now streaming titles received a Metascore of 61 or higher (or are titles of interest that do not have a Metascore). Mediocre and poorly reviewed releases are omitted; this is just the good stuff added within the past few months. Releases are ordered by date added to HBO (newest first).")
+call addnews(5,"Paul Zatkovich (Rusyn: Жатковіч) (1852—1916) was a newspaper editor and cultural activist for Rusyns in the United States. He was born in Ungvar, in the Ung County of the Kingdom of Hungary (present-day Ukraine), where his father George Zatkovich was a professor in a school for cantors of the Ruthenian Greek Catholic Church.")
+
+
+call userregister('eren.ozger@hacettepe.edu.tr','15975343','eren ozger','19-07-1996','erenozger06',1)
+call userregister('nehir.akbas@hacettepe.edu.tr','123456789','nehir akbas','04-01-1995','nehirakbas06',1)
+call userregister('mustafa.kucuk@hacettepe.edu.tr','111222333','mustafa kucuk','03-05-1993','mustafakucuk06',1)
+call userregister('b21427215@cs.hacettepe.edu.tr','15975343','eren ozger','19-07-1996','erenozger06',2)
+call userregister('b21327604@cs.hacettepe.edu.tr','123456789','nehir akbas','04-01-1995','erenozger06',2)
+call userregister('b21228305@cs.hacettepe.edu.tr','111222333','mustafa kucuk','03-05-1993','erenozger06',2)
+call userregister('lelaAlexander@gmail.com','asdasd','lelaAlexander','01/01/2000','Noel',3)
+call userregister('noelBoothman@gmail.com','123123','noelBoothman','19/07/1996','Lela',3)
+call userregister('lorneWaller@gmail.com','444444','lorneWaller','02-25-2000','Zackery',3)
+call userregister('dorianRobinson@gmail.com','444444','dorianRobinson','1992-02-25','Seth',3)
+
+
+call adduserreview(14,1,'This game is scarry',3)
+call adduserreview(15,1,'This game is awesome',9)
+call adduserreview(16,2,'This film is scarry',5)
+call adduserreview(17,2,'This film is awesome',9)
+call adduserreview(18,3,'This series is bad',1)
+call adduserreview(19,3,'This series is good',7)
+call adduserreview(20,4,'This new is too long',4)
+call adduserreview(21,4,'This new is short',4)
+call adduserreview(22,5,'This music is the best',10)
+call adduserreview(23,5,'This music is the worst',1)
