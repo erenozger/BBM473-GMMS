@@ -1,1 +1,4 @@
 MYSQL SERVER VERSION 8.0
+
+Gmmsdb file contains all database.Need to import mysql workbench.
+Insert createtable and views just show statements.
